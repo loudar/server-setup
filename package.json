@@ -1,0 +1,16 @@
+{
+  "name": "infrastructure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "addServer.mjs",
+  "type": "module",
+  "scripts": {
+    "addServer": "node addServer.mjs",
+    "setupServer": "node setupServer.mjs"
+  },
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "inquirer": "^11.1.0"
+  }
+}
